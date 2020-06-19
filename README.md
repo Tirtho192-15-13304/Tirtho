@@ -1,8 +1,3 @@
-# Binary search
-#Tirtho
-#CSE department 
-#DIU
-
 #include<iostream>
 using namespace std;
 int main()
@@ -42,13 +37,12 @@ int main()
         }
         if(inputArr[mid]>data)
         {
-            end=mid-1;
+            istart=mid-1;
         }
         else{
-            start = mid+1;
+            size = mid+1;
         }
 
     }
 
 }
-
