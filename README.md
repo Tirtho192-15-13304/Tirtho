@@ -1,4 +1,8 @@
-# Tirtho
+# Binary search
+#Tirtho
+#CSE department 
+#DIU
+
 #include<iostream>
 using namespace std;
 int main()
