@@ -1,3 +1,5 @@
+#Tirtho
+#DIU CSE
 #include<iostream>
 using namespace std;
 int main()
@@ -11,8 +13,9 @@ int main()
     }
     for(istart=0;istart<size-1;istart++)
     {
-        for(jstart=0;jstart<size-1;jstart++)
+        for(jstart=0;jstart<size-1-istart;jstart++)
         {
+            cout << jstart << "   " << inputArr[jstart] << "   " <<  jstart+1 << "   " << inputArr[jstart+1]<< endl;
             if(inputArr[jstart]>inputArr[jstart+1]){
             temp =inputArr[jstart];
             inputArr[jstart]=inputArr[jstart+1];
